@@ -1,5 +1,6 @@
 function makeid(l) {
   // write your code hereres="";
+	res="";
     char_list="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     for(let i=0;i<l;i++){
         res+=char_list.charAt(
